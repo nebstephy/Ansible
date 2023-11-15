@@ -1,6 +1,6 @@
 ---
 - name: install and configure Jenkins
-  hosts: # TBD
+  hosts: all
   become: yes
   become_user: root  
   roles:
